@@ -17,7 +17,6 @@ The Hugo **Academic Resumé Template** empowers you to create your job-winning o
 
 ## Crowd-funded open-source software
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
 
 ### [❤️ Click here to unlock rewards with sponsorship](https://wowchemy.com/plans/)
 
