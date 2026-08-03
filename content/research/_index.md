@@ -6,55 +6,74 @@ cascade:
   showReadingTime: false
 ---
 
-My research asks how the deep Earth transports mass, heat, and fluids — and how we can
-constrain those processes with the sparse, indirect observations we actually have. That
-question pulls in geodynamic modeling, petrology, thermochronology, and a fair amount of
-numerical methods work.
+I work on how tectonic processes can be constrained by their self-consistent evolution in
+numerical geodynamic models — which pulls in geodynamics, petrology, thermochronology,
+and a fair amount of numerical methods.
 
-## Subduction-zone fluid and heat transport
+## Serpentinization and the plate interface
 
-I model coupled fluid and heat transport in subduction zones, with a focus on how mineral
-phase stability controls where water is bound, carried, and released. The thermal
-structure of a subduction zone is not static: it evolves over the lifetime of the margin,
-and that evolution changes which dehydration reactions run and where.
+During subduction, the downgoing oceanic crust is exposed to high temperatures in the
+mantle wedge, causing volatile-bearing minerals to break down and release hydrous fluids
+into the forearc. These fluids percolate upwards, reacting with the mantle wedge to form
+hydrated ultramafic lithologies, including serpentinite.
 
-Work with Epstein, Condit, Holt, and Guevara showed that this evolving thermal structure
-drives far more extensive hydration of the forearc mantle wedge than steady-state models
-predict — a result with direct consequences for seismicity, arc volcanism, and the global
-water budget.
+To accurately track the fate and impact of water on the forearc, we develop time-dependent
+models that self-consistently capture both serpentinite ingrowth and the associated
+rheological weakening of the plate interface. Unlike many subduction models that
+investigate forearc serpentinization and prescribe plate velocities, geometries, or
+steady-state conditions, our approach allows plates to evolve dynamically without
+predefined velocities or geometries.
 
-More recently I've looked at what happens when that hydration is allowed to feed back on
-the dynamics. In fully dynamic subduction models — no prescribed plate velocities or
-geometries — progressive serpentinization of the mantle wedge weakens the plate interface,
-which in turn changes subduction rate, which changes the thermal structure that drove the
-serpentinization in the first place. These feedbacks are emergent: they don't appear in
-models where the kinematics are imposed.
+Subducting fully water-saturated sediments yield ~3× greater forearc serpentinite than the
+moderately hydrated reference case. The water-saturated case produces a weaker interface
+and, in turn, subduction zone convergence rates ~40% higher than in an endmember case with
+anhydrous sediment. We find that hydrous sediments not only lubricate the interface
+directly by weakening it, as previously suggested, but also by dehydrating and releasing
+water that produces weak serpentinite in the mantle wedge — feedback only able to be
+captured within fully coupled dynamic models.
 
-## Foundering and relamination of the lower crust
+## Thermal evolution and mantle wedge hydration
 
-My dissertation work combined numerical modeling with xenolith constraints to ask what
-happens to dense lower crust once it becomes gravitationally unstable. Does it founder
-into the mantle, or does buoyant material relaminate to the base of the crust?
+Hydration of the subduction zone forearc mantle wedge influences the downdip distribution
+of seismicity, the availability of fluids for arc magmatism, and Earth's long-term water
+cycle. Reconstructions of present-day subduction zone thermal structures using
+time-invariant geodynamic models indicate relatively minor hydration, in contrast to many
+geophysical and geologic observations.
 
-Using hydro-thermo-mechanical models (a modified I2VIS code from ETH) together with
-Generalized Additive Models fit to sediment-melting experiments, I quantified how much
-sediment should relaminate versus founder across an array of subduction zones. The Pamir
-— where deep xenoliths give an unusually direct window into lower-crustal conditions —
-served as the natural laboratory.
+By pairing a dynamic, time-evolving thermal model of subduction with phase equilibria
+modeling, we found that the thermal state during the intermediate period of subduction —
+as the slab freely descends through the upper mantle — promotes extensive forearc wedge
+hydration. During early subduction the forearc is too hot to stabilize hydrous minerals in
+the mantle wedge, while during mature subduction, slab dehydration dominantly occurs
+beyond forearc depths.
+
+Considering thermal evolution leads to an order of magnitude increase in estimates for
+current extents of wedge hydration, suggesting the forearc mantle wedge represents a
+potential vast reservoir of H₂O, on the order of 3.4–5.9 × 10²¹ g globally.
+
+## Relamination, delamination, and foundering of the lower crust
+
+My dissertation asked what happens to lower crust during continental collision, combining
+numerical modeling with xenolith constraints.
+
+I quantified the amount of sediment expected to relaminate and founder for an array of
+subduction zones using numerical hydro-thermo-mechanical models (modified I2VIS code from
+ETH), and fit models of sediment melting using Generalized Additive Models (GAMs) to
+interpolate melt fraction and residuum densities. The Pamir — where deep xenoliths give an
+unusually direct window into lower-crustal conditions — served as the natural laboratory.
 
 ## Thermochronology and sensitivity analysis
 
 Thermochronological dates are the product of a thermal history and a radiation-damage
-model, and both carry real uncertainty. I've worked on quantifying how much: conducting
-global sensitivity analysis to determine which parts of a thermal history a date actually
-constrains, and which are effectively unconstrained.
+model, and both carry real uncertainty. I conducted Global Sensitivity Analysis (GSA) to
+quantify the sensitivity of thermochronological dates to uncertain thermal history paths
+and radiation damage model parameters.
 
 That interest now runs the other direction as well. I've contributed to
-[GDTchron](https://github.com/dyvasey/gdtchron), a Python package that takes the output of
-a geodynamic model and predicts the thermochronometric ages it would produce — turning
-forward models into something directly comparable against real dates. Earlier work paired
-Raman spectroscopy with zircon (U-Th)/He dating to characterize radiation damage in
-Kaapvaal Craton samples.
+[GDTchron](https://github.com/dyvasey/gdtchron), a Python package for using the outputs of
+geodynamic models to predict thermochronometric ages. Earlier work coupled Raman
+spectroscopy and zircon (U-Th)/He dating to improve interpretation of thermal histories
+and crustal processes in the Kaapvaal Craton.
 
 ## Computational and open-science work
 
@@ -63,5 +82,5 @@ A recurring thread is that the modeling tools themselves need work. I contribute
 convection, and I'm interested in automatic differentiation as a route to tractable
 adjoint-based inversion for geodynamic problems.
 
-Where possible I build on publicly available data and release code openly, so that
-results can be reproduced rather than taken on faith.
+Throughout, I develop models to analyze fluid flow and chemical reactions, integrating
+publicly available data to ensure reproducibility and accessibility.

@@ -51,31 +51,37 @@ Advisor: Dylan Vasey
 November 2022–2025
 Advisor: Adam Holt
 
-- Modeled subsurface fluid and mantle dynamics in subduction zones, focusing on mineral
-  phase stability, geomechanics, and constraints from the tomography literature.
-- Developed fully dynamic subduction models — no prescribed plate velocities or
-  geometries — resolving emergent feedbacks between progressive serpentinization,
-  plate-interface strength, and subduction rate.
-- Integrated publicly available data to ensure reproducibility and accessibility.
-- Mentored graduate students and co-designed an interactive museum exhibit communicating
-  geologic processes to the public.
+- Modeled fluid and heat transport in subduction zones with a focus on mineral phase
+  stability.
+- Modeled subsurface fluid dynamics and mantle dynamics with a focus on geomechanics and
+  heavily drawing from tomography literature.
+- Developed time-dependent models that self-consistently capture both serpentinite
+  ingrowth and the associated rheological weakening of the plate interface, allowing
+  plates to evolve dynamically without predefined velocities or geometries.
+- Developed models to analyze fluid flow and chemical reactions, integrating publicly
+  available data to ensure reproducibility and accessibility.
+- Mentored students and co-designed an interactive museum exhibit, enhancing public
+  understanding of geologic processes.
 
 ### Graduate Research Assistant
 **University of California, Santa Barbara** · 2016–2022
 Advisor: Bradley Hacker
 
-- Independently secured approximately $77,000/year in research funding through a
-  competitive proposal.
-- Designed and ran fluid-mechanics simulations of mantle processes, with an emphasis on
-  clear data visualization in MATLAB and Python.
-- Quantified sediment relamination and foundering across an array of subduction zones
-  using hydro-thermo-mechanical numerical models (modified I2VIS code, ETH).
-- Fit models of sediment melting using Generalized Additive Models to interpolate melt
-  fraction and residuum densities.
-- Conducted global sensitivity analysis quantifying the sensitivity of thermochronologic
-  dates to uncertain thermal-history paths and radiation-damage model parameters.
-- Performed Laser Ablation ICP-MS (LASS) U-Pb dating of carbonate material, including
-  sample preparation, mounting, polishing, and data processing.
+- Demonstrated initiative by independently securing ~$77,000/year in research funding
+  through a comprehensive proposal.
+- Designed and ran fluid mechanics simulations focused on Earth's mantle processes,
+  emphasizing clear data visualization using MATLAB and Python.
+- Quantified amount of sediment expected to relaminate and founder for an array of
+  subduction zones using numerical hydro-thermo-mechanical models (modified I2VIS code
+  from ETH).
+- Fit models of sediment melting using Generalized Additive Models (GAMs) to interpolate
+  melt fraction and residuum densities.
+- Conducted Global Sensitivity Analysis (GSA) to quantify sensitivity of
+  thermochronological dates to uncertain thermal history paths and radiation damage model
+  parameters.
+- Conducted Laser Ablation ICP-MS (LASS) measurements, including mineral sample
+  preparation and data processing; prepared calcite and carbonate with standard mounting
+  and polishing techniques, analyzing limestone, speleothems, and caliche.
 - Co-led international fieldwork and collaborations in Norway and Tajikistan, collecting
   over 100 samples for structural and geochemical analysis.
 
@@ -83,11 +89,11 @@ Advisor: Bradley Hacker
 **University of Colorado Boulder** · February–August 2015
 Advisor: Rebecca Flowers
 
-- Analyzed titanite for radiation damage using a newly acquired Raman spectrometer.
-- Selected and mounted titanite grains for analysis; processed data with the LabSpec 6
-  Raman software suite.
-- Separated zircon using heavy liquids and a Frantz magnetic separator for (U-Th)/He
-  dating of the Kaapvaal Craton.
+- Analyzed titanite for radiation damage using newly acquired Raman spectrometer.
+- Picked appropriate titanite grains under microscope and made grain mount for analysis.
+- Completed literature review and processed data with LabSpec 6 Raman Software Suite.
+- Separated zircon crystals using heavy liquids and Frantz magnetic separator, and picked
+  appropriate crystals under microscope to prepare them for degassing.
 
 ---
 
@@ -95,16 +101,18 @@ Advisor: Rebecca Flowers
 
 **Teaching Assistant, UC Santa Barbara** · 2017–2022
 
-- Co-developed lectures and study material for *Introduction to MATLAB for Earth
-  Scientists* (2021).
-- Co-led structural geology field methods, Spring Field Course, Rainbow Canyon and the
-  Mojave Desert (2017, 2020).
+- Co-developed lectures and study material for MATLAB for Geoscientists course (2021).
+- Co-led structural geology field methods in the Mojave Desert (2×), with extensive
+  experience in a wide range of temperature conditions — Spring Field Course, Rainbow
+  Canyon, CA (2017, 2020).
 - *Tectonics* (2018).
-- Mentored a student one-on-one through to graduation with honors.
+- Mentored student one-on-one leading to them graduating with honors.
 
 **Geology Tutor**, Herbst Academic Center, CU Boulder · February–May 2015
-Prepared students for exams in one-on-one and group settings, adapting to individual and
-at-risk student needs. Received a personal letter of thanks from the program director.
+
+- Met with students and helped them to prepare for exams.
+- Adapted to individual and at-risk students' needs in one-on-one and group meetings.
+- Received personal thank you letter from director of program for work.
 
 ---
 
