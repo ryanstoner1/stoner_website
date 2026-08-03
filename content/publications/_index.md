@@ -6,6 +6,11 @@ showTableOfContents: true
 
 ## Peer-reviewed articles
 
+**Stoner, R. K.**, Holt, A. F., Epstein, G. S., Guevara, V. E., & Condit, C. B. (2025).
+Emergent feedbacks between progressive serpentinization, interface weakening, and
+subduction rates. *Geochemistry, Geophysics, Geosystems*, 26(11), e2025GC012488.
+[doi:10.1029/2025GC012488](https://doi.org/10.1029/2025GC012488)
+
 Epstein, G. S., Condit, C. B., **Stoner, R. K.**, Holt, A. F., & Guevara, V. E. (2024).
 Evolving subduction zone thermal structure drives extensive forearc mantle wedge
 hydration. *AGU Advances*, 5(4), e2023AV001121.
@@ -19,11 +24,6 @@ of the Lower Crust.* PhD dissertation, University of California, Santa Barbara.
 **Stoner, R. K.** (2016). *Investigating Radiation Damage in the Zircon (U-Th)/He
 Thermochronometer with Raman Spectroscopy.* Honors thesis, University of Colorado
 Boulder.
-
-## In preparation
-
-**Stoner, R.**, Behn, M., & Hacker, B. Combining numerical modeling and xenolith
-constraints to investigate density foundering of lower crust in the Pamir.
 
 ## Conference abstracts
 

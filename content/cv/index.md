@@ -36,16 +36,28 @@ ArcGIS, field geophysics, field mapping, petrology, and geochemistry.
 
 ## Professional Experience
 
+### Postdoctoral Scholar
+**Tufts University**, Department of Earth and Climate Sciences · 2025–present
+Advisor: Dylan Vasey
+
+- Investigate how tectonic processes can be constrained by their self-consistent
+  evolution in numerical geodynamic models.
+- Contribute to open-source geodynamic and thermochronology software, including
+  [ASPECT](https://aspect.geodynamics.org/) and
+  [GDTchron](https://github.com/dyvasey/gdtchron).
+
 ### Postdoctoral Research Associate
 **University of Miami**, Rosenstiel School of Marine, Atmospheric, and Earth Science ·
-November 2022–present
-Supervisor: Adam Holt
+November 2022–2025
+Advisor: Adam Holt
 
-- Model subsurface fluid and mantle dynamics in subduction zones, focusing on mineral
+- Modeled subsurface fluid and mantle dynamics in subduction zones, focusing on mineral
   phase stability, geomechanics, and constraints from the tomography literature.
-- Develop models of fluid flow and coupled chemical reactions, integrating publicly
-  available data to ensure reproducibility and accessibility.
-- Mentor graduate students and co-designed an interactive museum exhibit communicating
+- Developed fully dynamic subduction models — no prescribed plate velocities or
+  geometries — resolving emergent feedbacks between progressive serpentinization,
+  plate-interface strength, and subduction rate.
+- Integrated publicly available data to ensure reproducibility and accessibility.
+- Mentored graduate students and co-designed an interactive museum exhibit communicating
   geologic processes to the public.
 
 ### Graduate Research Assistant
@@ -61,8 +73,7 @@ Advisor: Bradley Hacker
 - Fit models of sediment melting using Generalized Additive Models to interpolate melt
   fraction and residuum densities.
 - Conducted global sensitivity analysis quantifying the sensitivity of thermochronologic
-  dates to uncertain thermal-history paths and radiation-damage model parameters;
-  released the resulting Julia package for community use.
+  dates to uncertain thermal-history paths and radiation-damage model parameters.
 - Performed Laser Ablation ICP-MS (LASS) U-Pb dating of carbonate material, including
   sample preparation, mounting, polishing, and data processing.
 - Co-led international fieldwork and collaborations in Norway and Tajikistan, collecting
@@ -124,6 +135,9 @@ at-risk student needs. Received a personal letter of thanks from the program dir
 
 **Modeling** — ASPECT (finite-element mantle convection), I2VIS (hydro-thermo-mechanical),
 thermodynamic phase-stability modeling, global sensitivity analysis
+
+**Open-source contributions** — [ASPECT](https://aspect.geodynamics.org/),
+[GDTchron](https://github.com/dyvasey/gdtchron)
 
 **Laboratory** — Laser Ablation ICP-MS (LASS), Raman spectroscopy, (U-Th)/He
 thermochronology, mineral separation and grain mounting

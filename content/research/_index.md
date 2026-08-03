@@ -13,15 +13,22 @@ numerical methods work.
 
 ## Subduction-zone fluid and heat transport
 
-At Miami I model coupled fluid and heat transport in subduction zones, with a focus on
-how mineral phase stability controls where water is bound, carried, and released. The
-thermal structure of a subduction zone is not static: it evolves over the lifetime of the
-margin, and that evolution changes which dehydration reactions run and where.
+I model coupled fluid and heat transport in subduction zones, with a focus on how mineral
+phase stability controls where water is bound, carried, and released. The thermal
+structure of a subduction zone is not static: it evolves over the lifetime of the margin,
+and that evolution changes which dehydration reactions run and where.
 
 Work with Epstein, Condit, Holt, and Guevara showed that this evolving thermal structure
 drives far more extensive hydration of the forearc mantle wedge than steady-state models
 predict — a result with direct consequences for seismicity, arc volcanism, and the global
 water budget.
+
+More recently I've looked at what happens when that hydration is allowed to feed back on
+the dynamics. In fully dynamic subduction models — no prescribed plate velocities or
+geometries — progressive serpentinization of the mantle wedge weakens the plate interface,
+which in turn changes subduction rate, which changes the thermal structure that drove the
+serpentinization in the first place. These feedbacks are emergent: they don't appear in
+models where the kinematics are imposed.
 
 ## Foundering and relamination of the lower crust
 
@@ -42,10 +49,12 @@ model, and both carry real uncertainty. I've worked on quantifying how much: con
 global sensitivity analysis to determine which parts of a thermal history a date actually
 constrains, and which are effectively unconstrained.
 
-This became [COAST.jl](https://github.com/ryanstoner1/COAST.jl), a Julia package for
-sensitivity-analysis modeling of geologic thermal histories. Earlier work paired Raman
-spectroscopy with zircon (U-Th)/He dating to characterize radiation damage in Kaapvaal
-Craton samples.
+That interest now runs the other direction as well. I've contributed to
+[GDTchron](https://github.com/dyvasey/gdtchron), a Python package that takes the output of
+a geodynamic model and predicts the thermochronometric ages it would produce — turning
+forward models into something directly comparable against real dates. Earlier work paired
+Raman spectroscopy with zircon (U-Th)/He dating to characterize radiation damage in
+Kaapvaal Craton samples.
 
 ## Computational and open-science work
 
