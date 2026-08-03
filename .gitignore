@@ -1,8 +1,13 @@
-# IDEs
-.idea/
+# Hugo build output
+/public/
+/resources/_gen/
+.hugo_build.lock
 
-# Hugo
-/resources/
-public/
-jsconfig.json
-node_modules/
+# Hugo module files (theme is vendored as a git submodule)
+hugo_stats.json
+
+# OS / editor cruft
+.DS_Store
+*.swp
+.idea/
+.vscode/

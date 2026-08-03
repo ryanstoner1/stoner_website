@@ -1,36 +1,63 @@
-<p align="center"><a href="https://wowchemy.com" target="_blank" rel="noopener"><img src="https://wowchemy.com/img/logo_200px.png" alt="Wowchemy Website Builder"></a></p>
+# stoner_website
 
-# Academic Template for [Hugo](https://github.com/gohugoio/hugo)
+Personal academic site and blog for Ryan K. Stoner, built with
+[Hugo](https://gohugo.io/) and the [Blowfish](https://blowfish.page/) theme.
 
-The Hugo **Academic Resumé Template** empowers you to create your job-winning online resumé and showcase your academic publications.
+**Live at:** https://ryanstoner1.github.io/stoner_website/
 
-[Check out the latest demo](https://academic-demo.netlify.app) of what you'll get in less than 10 minutes, or [view the showcase](https://wowchemy.com/user-stories/).
+## Local development
 
-[**Wowchemy**](https://wowchemy.com) makes it easy to create a beautiful website for free. Edit your site in Markdown, Jupyter, or RStudio (via Blogdown), generate it with Hugo, and deploy with GitHub or Netlify. Customize anything on your site with widgets, themes, and language packs.
+Hugo **extended** is required (Blowfish compiles SCSS):
 
-- 👉 [**Get Started**](https://wowchemy.com/templates/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/guide/update/) and [Release Notes](https://wowchemy.com/updates/)
+```bash
+brew install hugo          # macOS
+hugo version               # must say "+extended"
+```
 
-## Crowd-funded open-source software
+Clone with the theme submodule, then serve with drafts visible:
 
+```bash
+git clone --recurse-submodules https://github.com/ryanstoner1/stoner_website.git
+cd stoner_website
+hugo server -D
+```
 
-### [❤️ Click here to unlock rewards with sponsorship](https://wowchemy.com/plans/)
+The site is then at http://localhost:1313/stoner_website/ — note the subpath.
 
-## Ecosystem
+If you already cloned without `--recurse-submodules`:
 
-* **[Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli):** Automatically import publications from BibTeX
+```bash
+git submodule update --init --recursive
+```
 
-[![Screenshot](https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png)](https://wowchemy.com)
+## Adding a blog post
 
-## Demo image credits
+```bash
+hugo new blog/my-post-slug/index.md
+```
 
-- [Open book](https://unsplash.com/photos/J4kK8b9Fgj8)
-- [Course](https://unsplash.com/photos/JKUTrJ4vK00)
+Then edit `content/blog/my-post-slug/index.md`. Set `draft: false` when it's ready to
+publish. Images for a post go in that same folder next to `index.md`.
 
-<!--
-[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/starter-academic/readme?pixel)](https://github.com/igrigorik/ga-beacon)
--->
+## Layout
+
+```
+config/_default/     site config (hugo, params, menus, languages)
+content/
+  _index.md          homepage bio
+  research/          research overview
+  publications/      papers, theses, abstracts
+  blog/              posts, one folder each
+  cv/                curriculum vitae
+assets/img/          profile photo and other images
+themes/blowfish/     theme (git submodule — do not edit)
+```
+
+## Deployment
+
+Every push to `master` triggers `.github/workflows/hugo.yaml`, which builds the site and
+publishes it to GitHub Pages. No manual step is needed.
+
+To customize the theme, override files in the top-level `layouts/` or `assets/`
+directories rather than editing `themes/blowfish/` — that way theme updates
+(`git submodule update --remote`) won't clobber your changes.

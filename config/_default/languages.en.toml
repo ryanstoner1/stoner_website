@@ -1,0 +1,26 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "Ryan K. Stoner"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "Ryan K. Stoner — geophysicist and Earth scientist working on geodynamics, subduction-zone fluid and heat transport, and computational modeling."
+  copyright = "© 2026 Ryan K. Stoner"
+
+[params.author]
+  name = "Ryan K. Stoner"
+  email = "ryankstoner@gmail.com"
+  image = "img/profile.jpg"
+  imageQuality = 96
+  headline = "Geophysicist · Earth Scientist"
+  bio = "Postdoctoral researcher modeling fluid and heat transport in subduction zones."
+  links = [
+    { email = "mailto:ryankstoner@gmail.com" },
+    { github = "https://github.com/ryanstoner1" },
+    { linkedin = "https://www.linkedin.com/in/ryankstoner" },
+  ]
